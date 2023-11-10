@@ -1,0 +1,141 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color:#E7E7E7;
+  
+}
+
+/** HEADER **/
+
+#navheader {
+  background-color:#999999;
+  border-radius: 0px;
+  border: 0px;
+
+}
+#navheader h1{
+  color: #000000; 
+  font-size: 1.5em;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+#Indexlogo{
+  background: url('../images/restaurant-logo.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+#logoimg{
+  width: 25px;
+  height: 25px;
+}
+.navbar-brand> a:hover a:visible {
+  display: none;
+}
+.navbar-brand>a{
+  text-decoration: none;
+
+}
+.navbar-brand>a>h1{
+  color: black;
+  font-size: 1.4em;
+  text-shadow: 2px,2px;
+
+
+}
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#collapsable-nav *:hover{
+  background-color: grey;
+
+}
+
+
+
+#main-content{
+  margin-top: 30px;
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: auto;
+}
+#menu-tile{
+  display: block;
+  background-color: #999999;
+}
+#menu-tile p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#main-content h2,h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+button{
+  background-color: 
+}
+ul{
+  list-style-type: none;
+}
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #navbar-brand h1{
+    margin-bottom: auto;
+  }
+ #nav-list *{
+  display: none;
+
+}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+   #navbar-brand h1{
+    margin-bottom: auto;
+  }
+  #nav-list *{
+  display: none;
+}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   #navbar-brand h1{
+    margin-bottom: auto;
+  }
+ #nav-list *{
+  display: none;
+
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
